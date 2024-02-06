@@ -1,0 +1,35 @@
+# backend
+conf.py
+db.sqlite3
+*.pyc
+__pycache__/
+env/
+
+# ai
+shape_predictor_68_face_landmarks.dat
+ai/ai_env/
+
+# frontend
+.env
+
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
